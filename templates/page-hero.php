@@ -16,7 +16,13 @@
 
     <?php endif; ?>
 <?php endif; ?>
-<?php if(is_singular() || is_home()): ?>
+<?php if(is_singular() || is_home()):
+
+    if(is_home()){
+        $page_title = 'Blog';
+    }
+
+    ?>
 <div class="hero_banner">
 	<div class="container">
 		<div class="row text-center">

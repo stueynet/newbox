@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Josefin+Sans:100,300,400,600,700|Josefin+Slab:100,300,400,600,700|Nothing+You+Could+Do|Droid+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Josefin+Sans:100,300,400,600,700|Josefin+Slab:100,300,400,600,700|Nothing+You+Could+Do|Droid+Serif:400,700|Merriweather:400,300,700,900);
 
 .body_wrap{
 	border-top: 7px solid $brand-primary;
@@ -79,10 +79,10 @@ h3{font-size: 1.2em}
 }
 
 .readable{
-    font-family: 'Droid Serif', serif;
-    font-size: 1.2em;
+    font-family: 'Merriweather', serif;
+    font-size: 1.1em;
     line-height: 1.7;
-    font-weight: normal;
+    font-weight: 300;
 }
 
 .portfolio_item_thumbnail{

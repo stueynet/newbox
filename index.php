@@ -1,4 +1,4 @@
-<?php get_template_part('templates/page', 'header'); ?>
+<?php // get_template_part('templates/page', 'header'); ?>
 <div class="narrow">
 
 <?php if (!have_posts()) : ?>
