@@ -1,0 +1,91 @@
+.navbar-brand{
+	font-size: 2em;
+	margin-right: 50px;
+	line-height: 0.9;
+
+}
+
+.logo{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 2.4em;
+    padding-top: 23px;
+}
+
+.banner{
+	font-weight: 300;
+	margin-bottom: 0;
+    border: none;
+	.nav-wrapper{
+		position: relative;
+	}
+	.cta{
+        border: 1px solid $brand-orange;
+        margin: 0.4em;
+        a{
+            color: $brand-orange !important;
+//            color: #FFFFFF !important;
+//            background-color: $brand-orange !important;
+            text-transform: uppercase;
+            padding: 0.5em 0.7em;
+            &:hover{
+                background-color: darken($brand-orange, 10%) !important;
+                color: #FFFFFF !important;
+            }
+        }
+		@media(min-width: $grid-float-breakpoint) {
+			position: absolute;
+			right: 0;
+			top: 14px;
+			padding: 0;
+			a{
+				font-size: 0.9em;
+			}
+		}
+        @media(min-width: $screen-lg-min) {
+            top: 9px;
+
+            a{
+                font-size: 1.2em;
+            }
+        }
+	}
+}
+
+// Animated Hamburger
+.navbar-toggle {
+	border: none;
+	background: transparent !important;
+
+	&:hover {
+		background: transparent !important;
+	}
+
+	.icon-bar {
+		width: 22px;
+		transition: all 0.2s;
+	}
+	.top-bar {
+		transform: rotate(45deg);
+		transform-origin: 10% 10%;
+	}
+	.middle-bar {
+		opacity: 0;
+	}
+	.bottom-bar {
+		transform: rotate(-45deg);
+		transform-origin: 10% 90%;
+	}
+}
+
+
+.navbar-toggle.collapsed {
+	.top-bar {
+		transform: rotate(0);
+	}
+	.middle-bar {
+		opacity: 1;
+	}
+	.bottom-bar {
+		transform: rotate(0);
+	}
+}

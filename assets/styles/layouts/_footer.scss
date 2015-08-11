@@ -1,0 +1,21 @@
+.content-info{
+	background: $gray-dark;
+	padding: 1em 0;
+	border-bottom: 10px solid $brand-primary;
+	color: $footer_text;
+	text-align: center;
+	.logo{
+		font-size: 1em;
+		margin: 1em 0 0.5em;
+	}
+	hr{
+		border-color: lighten($gray-dark, 10%);
+	}
+
+	.menu{
+		a{
+			font-size: 0.8em;
+			color: $footer_text;
+		}
+	}
+}

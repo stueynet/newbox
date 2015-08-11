@@ -1,0 +1,8 @@
+.btn{
+	border:none;
+	@include border-top-radius(100px);
+	@include border-bottom-radius(100px);
+	@include border-left-radius(100px);
+	@include border-right-radius(100px);
+	padding: .5em 2em;
+}

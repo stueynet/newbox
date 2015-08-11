@@ -1,0 +1,35 @@
+body{
+	.sow-features-list .sow-icon-container{
+		color: transparent;
+	}
+	.textwidget{
+		h5{
+			font-size: $font-size-h4;
+			font-weight: 300;
+			margin-top: 1.3em !important;
+			margin-bottom: .5em !important;
+		}
+		p{
+			font-weight: 300;
+		}
+	}
+	.sow-features-list{
+		margin: 0;
+	}
+
+	@media (max-width: 768px){
+		.sow-features-list.sow-features-responsive .sow-features-feature {
+			width: 100% !important;
+			float: none;
+			margin-bottom: 40px;
+		}
+	}
+    .ow-button-base a{
+        background: $brand-secondary !important;
+        border: none !important;
+        &:hover{
+            background: darken($brand-secondary, 10%) !important;
+        }
+    }
+}
+

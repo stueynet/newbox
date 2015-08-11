@@ -1,0 +1,34 @@
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+$grid-float-breakpoint: 992px;
+
+// Colors
+$brand-primary: #1A82C5;
+$brand-secondary: #e89649;
+$brand-blue: $brand-primary;
+$brand-orange: $brand-secondary;
+
+$footer_text: 			#8f9fa9;
+
+
+// Fonts
+$text-color: #000000;
+$font-size-base: 18px;
+$font-family-base: 'Lato', sans-serif;
+$headings-font-weight: 300;
+$headings-line-height: 1.4;
+
+
+// Navbar
+$navbar-default-link-color: #000000;
+$navbar-default-bg: transparent;
+$navbar-default-link-active-bg: $brand-blue;
+$navbar-default-link-hover-bg: #EEEEEE;
+$navbar-default-link-active-color: #FFFFFF;
+$navbar-height: 80px;
+
+

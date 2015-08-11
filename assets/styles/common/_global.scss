@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Josefin+Sans:100,300,400,600,700|Josefin+Slab:100,300,400,600,700|Nothing+You+Could+Do|Droid+Serif:400,700);
+
+.body_wrap{
+	border-top: 7px solid $brand-primary;
+	font-weight: 300;
+}
+
+
+body{
+    font-size: 14px;
+    font-weight: 400;
+    @media (min-width: $screen-sm) {
+        font-size: 15px;
+    }
+    @media (min-width: $screen-md) {
+        font-size: 16px;
+    }
+    @media (min-width: $screen-lg) {
+        font-size: 17px;
+    }
+}
+
+h1{font-size: 2.2em}
+h2{font-size: 1.8em}
+h3{font-size: 1.2em}
+
+/*
+@media(min-width: $grid-float-breakpoint){
+	html,body{
+		height: 100%;
+	}
+	body{
+		padding-bottom: 140px;
+	}
+	.content-info{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+}
+*/
+
+
+.hero{
+    background-image: url("../images/lightBlueBg.jpg");
+    background-color: lighten($brand-primary, 45%);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2em 0;
+  color: $gray-dark;
+  .sow-features-list .sow-features-feature .sow-icon-container [class^="sow-icon-"], .sow-features-list .sow-features-feature .sow-icon-container .sow-icon-image{
+    color: $brand-blue;
+  }
+}
+
+.hero-label{
+    display: inline-block;
+    font-weight: 200;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin: 0;
+}
+.hero_banner{
+    @extend .hero;
+    background-image: url("../images/bluebg.jpg");
+    color: $gray-lighter;
+    h1{
+        margin: 0.7em 0 0.6em 0;
+    }
+}
+
+.cta{
+    padding: 2em 0;
+}
+
+.narrow{
+	max-width: 700px;
+	margin: 50px auto;
+}
+
+.readable{
+    font-family: 'Droid Serif', serif;
+    font-size: 1.2em;
+    line-height: 1.7;
+    font-weight: normal;
+}
+
+.portfolio_item_thumbnail{
+    background: #FFFFFF;
+    border: 1px solid darken($body-bg, 15%);
+    margin: 10px;
+    padding: 10px;
+    img{
+        width: 100%;
+    }
+}
+
+.single-portfolio_item{
+    article{
+     margin-top: 2em;
+    }
+    .hero_banner{
+        .btn{
+            color: rgba(255,255,255,0.65);
+            background: transparent;
+            border: 2px solid rgba(255,255,255,0.65);
+            &:hover{
+                background: rgba(0,0,0,0.4);
+                border: 2px solid rgba(255,255,255,0.9);
+                color: rgba(255,255,255,0.9);
+            }
+        }
+    }
+}
+
+.gform_button{
+    @extend .btn;
+    @extend .btn-primary;
+    @extend .btn-lg;
+}
+.cta_global{
+    background: #EBEBEB;
+    padding: 3em 0;
+    h4{
+        font-size: 2em;
+        font-weight: 200;
+        margin-bottom: 1em;
+    }
+    a{
+        @extend .btn, .btn-lg, .btn-primary;
+    }
+}
+
+.minimal{
+    .cta, .cta_global{
+        display: none;
+    }
+}
