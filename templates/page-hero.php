@@ -1,4 +1,4 @@
-<?php if(is_singular() && ! is_front_page()): ?>
+<?php if(is_singular()): ?>
 
     <?php
     if(get_field('title_override')) {
@@ -15,6 +15,8 @@
         </style>
 
     <?php endif; ?>
+<?php endif; ?>
+<?php if(is_singular() || is_home()): ?>
 <div class="hero_banner">
 	<div class="container">
 		<div class="row text-center">
