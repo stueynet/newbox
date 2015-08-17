@@ -16,7 +16,7 @@
 
     <?php endif; ?>
 <?php endif; ?>
-<?php if(is_singular() || is_home()):
+<?php if( ( is_singular() || is_home() ) && ! is_front_page() ):
 
     if(is_home()){
         $page_title = 'Blog';

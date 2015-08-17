@@ -36,6 +36,7 @@ do_action('get_footer');
 get_template_part('templates/footer');
 wp_footer();
 ?>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
 </div>
 </body>
 </html>
