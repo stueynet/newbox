@@ -1,5 +1,5 @@
 <?php // get_template_part('templates/page', 'header'); ?>
-<div class="narrow">
+<div class="narrow readable">
 
 <?php if (!have_posts()) : ?>
   <div class="alert alert-warning">
