@@ -65,6 +65,13 @@
                 "operator": "==",
                 "value": "portfolio_item"
             }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
         ]
     ],
     "menu_order": 0,
@@ -73,5 +80,7 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
-    "modified": 1439211639
+    "active": 1,
+    "description": "",
+    "modified": 1440623808
 }

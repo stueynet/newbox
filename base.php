@@ -24,7 +24,7 @@ do_action('get_header');
 get_template_part('templates/header');
 get_template_part('templates/page-hero');
 ?>
-    <?php if(is_singular('post')): ?>
+    <?php if(is_singular('post') && 1==2): ?>
         <?php
         $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'portfolio-featured' );
         $url = $thumb['0'];
