@@ -30,6 +30,10 @@
 			  gallery:{enabled:true}
 			  // other options
 		  });
+          $('.navbar-toggle').bind( "touchstart", function(e){
+              e.preventDefault();
+              $('.navbar-collapse').collapse('toggle');
+          });
 
 
 

@@ -26,6 +26,9 @@
 <div class="hero_banner">
 	<div class="container">
 		<div class="row text-center">
+            <?php if(is_singular('post')) : ?>
+			    <p class="hero-label"><?php _e('Blog', 'sage'); ?></p>
+            <?php endif; ?>
             <?php if(is_singular('portfolio_item')) : ?>
 			    <p class="hero-label"><?php _e('Project', 'sage'); ?></p>
             <?php endif; ?>

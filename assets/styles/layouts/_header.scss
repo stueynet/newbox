@@ -1,14 +1,29 @@
 .navbar-brand{
-	font-size: 2em;
-	margin-right: 50px;
-	line-height: 0.9;
-
+    width: 150px;
+    @media(min-width: $grid-float-breakpoint){
+        padding: 0.85em;
+        margin-right: 1em;
+        width: 200px;
+    }
+    text-transform: lowercase;
+    img{
+        max-height: 100%;
+        height: auto;
+        @media(min-width: $grid-float-breakpoint){
+            max-width: 100%;
+        }
+    }
+    svg{
+        fill: #000000;
+    }
 }
 
+
 .logo{
-    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Dosis', sans-serif;
     font-size: 2.4em;
-    padding-top: 23px;
+    padding-top: 24px;
+    font-weight: 500;
 }
 
 .banner{
