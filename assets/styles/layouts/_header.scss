@@ -37,13 +37,14 @@
         border: 1px solid $brand-orange;
         margin: 0.4em;
         a{
-            color: $brand-orange !important;
+            background-color: darken($brand-orange, 10%) !important;
+            color: #FFFFFF !important;
 //            color: #FFFFFF !important;
 //            background-color: $brand-orange !important;
             text-transform: uppercase;
             padding: 0.5em 0.7em;
             &:hover{
-                background-color: darken($brand-orange, 10%) !important;
+                background-color: darken($brand-orange, 17%) !important;
                 color: #FFFFFF !important;
             }
         }
